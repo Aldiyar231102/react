@@ -1,0 +1,95 @@
+.sneaker-page-container {
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  padding-left: 250px;
+}
+
+.image {
+  width: 700px;
+  height: 700px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.name {
+  font-size: 60px;
+  margin-bottom: 15px;
+  background-color: antiquewhite;
+}
+
+.brandName {
+  font-size: 25px;
+}
+
+.details {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.story {
+  font-size: 18px;
+  width: 700px;
+  margin-bottom: 35px;
+}
+
+.interaction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#size {
+  text-align: center;
+  width: 380px;
+  height: 40px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.price {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+select {
+  font-size: 20px;
+  outline: none;
+}
+
+option {
+  font-size: 20px;
+}
+
+.addToWishList {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: none;
+}
+
+.addToWishBtn {
+  width: 28px;
+  height: 28px;
+}
+
+.addCart_button {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 30px;
+}

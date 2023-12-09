@@ -1,0 +1,104 @@
+h1 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.sneaker-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.sneakerName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sneakerPrice {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.sneakerBrand {
+  font-size: 20px;
+}
+
+.sneaker-item {
+  text-align: center;
+}
+
+.searchInputContainer {
+  padding-top: 30px;
+}
+
+.search-input {
+  border: 1px solid black;
+  width: 450px;
+  height: 45px;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  padding-left: 10px;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  font-size: 16px;
+}
+
+.searchInputContainer {
+  display: flex;
+}
+
+.searchButton {
+  width: 50px;
+  border: none;
+  background-color: white;
+}
+
+.searchIcon {
+  color: black;
+  width: 25px;
+  height: 25px;
+}
+
+.searchIconContainer {
+  width: 50px;
+  height: 45px;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.loadMoreButton {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loadMoreButton:hover {
+  background-color: #333;
+}

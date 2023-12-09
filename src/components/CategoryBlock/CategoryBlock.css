@@ -1,0 +1,35 @@
+.category {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  height: 900px;
+}
+
+.basketballCategory,
+.lifestyleCategory {
+  width: 530px;
+  height: 740px;
+  font-size: 69px;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  transition: transform 0.3s;
+}
+
+.basketballCategory {
+  background-image: url(./images/2447c49022986fc50bd419d4d1da7207.jpg);
+}
+
+.lifestyleCategory {
+  background-image: url(./images/man.png);
+}
+
+.lifestyleCategory p {
+  color: white;
+}
+
+.basketballCategory:hover,
+.lifestyleCategory:hover {
+  transform: scale(1.025);
+}

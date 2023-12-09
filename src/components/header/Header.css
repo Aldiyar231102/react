@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: black;
+  padding-left: 30px;
+  background-color: black;
+  width: 100%;
+}
+
+.headerTitle {
+  font-size: 52px;
+  color: white;
+  cursor: pointer;
+}
+
+.wishList {
+  color: white;
+  width: 28px;
+  height: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.wishListButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cartBlock {
+  align-items: center;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+
+.cartIcon {
+  color: white;
+  width: 38px;
+  height: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.cartButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.cart {
+  color: white;
+}
